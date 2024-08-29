@@ -21,7 +21,7 @@ The [EuroSAT dataset](https://github.com/phelber/eurosat) consists of 27,000 lab
 - SeaLake
 
 ## Model Architecture
-The Vision Transformer (ViT) model treats an image as a sequence of patches, similar to tokens in Natural Language Processing (NLP). Each patch is linearly embedded and passed through transformer layers. This approach allows the model to capture complex spatial dependencies more effectively than traditional CNNs. Tiny model of ViT was used.
+The Vision Transformer (ViT) model treats an image as a sequence of patches, similar to tokens in Natural Language Processing (NLP). Each patch is linearly embedded and passed through transformer layers. This approach allows the model to capture complex spatial dependencies more effectively than traditional CNNs. A tiny model of ViT was used.
 
 ### Key Features:
 - **Patch Size:** 16x16
@@ -57,7 +57,7 @@ To run this project locally, follow the steps below:
 
 3. **Prepare the dataset:**
    - Download the EuroSAT dataset from [here](https://github.com/phelber/eurosat).
-   - Place the dataset in the `data/` directory.
+   - Place the dataset folder in the code.
 
 4. **Train the model:**
    ```
